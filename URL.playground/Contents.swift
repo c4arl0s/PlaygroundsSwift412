@@ -8,6 +8,6 @@ let task = URLSession.shared.dataTask(with: url){ (data, response, Error) in
         print(string)
     }
 }
-task.resume() // ejecutar tarea
+task.resume() // execute task
 PlaygroundPage.current.needsIndefiniteExecution = true
 
